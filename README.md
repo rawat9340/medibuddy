@@ -1,11 +1,8 @@
 # Medicine lookup
 
-A small web app to search U.S. FDA drug labels by brand name and view the details of each medicine.
-
-Built with React 18, React Router 6 and Vite. No UI or data-fetching libraries.
+web app to search 
 
 ## Features
-
 - Search medicines by brand name (e.g. Advil, Tylenol, Zyrtec)
 - Results update automatically as you type (400 ms debounce)
 - Search query is saved in the URL (`?q=advil`), so refresh, sharing and the Back button all keep your search
@@ -13,19 +10,7 @@ Built with React 18, React Router 6 and Vite. No UI or data-fetching libraries.
 - Link to the full official label on DailyMed
 - Basic in-memory caching, so going back to results or opening a medicine from the list is instant
 
-## Getting started
-
-Requires Node 18+. No API key needed.
-
-```bash
-npm install
-npm run dev       # http://localhost:5173
-npm run build     # production build in dist/
-npm run preview   # serve the build locally
-```
-
 ## Project structure
-
 ```
 src/
   main.jsx                 router and page layout
