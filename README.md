@@ -46,8 +46,4 @@ src/
 
 `vercel.json` (Vercel) and `public/_redirects` (Netlify) send every path to `index.html`, so links like `/medicine/:id` work when opened directly or refreshed.
 
-## Data source
 
-All data comes from [openFDA](https://open.fda.gov/), the U.S. Food and Drug Administration's public API.
-
-**Disclaimer:** For information only. Not a substitute for advice from a doctor or pharmacist.
