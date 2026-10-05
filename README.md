@@ -29,6 +29,5 @@ src/
 
 ## Deployment
 
-`vercel.json` (Vercel) and `public/_redirects` (Netlify) send every path to `index.html`, so links like `/medicine/:id` work when opened directly or refreshed.
-
+`vercel.json` (Vercel) - https://medibuddy-blue.vercel.app/
 
